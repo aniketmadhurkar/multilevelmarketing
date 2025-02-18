@@ -1,71 +1,60 @@
-# Getting Started with Create React App
+## Multilevel Marketing (MLM) Website using React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Overview
 
-## Available Scripts
+This project is a Multilevel Marketing (MLM) Website built using React JS. It allows users to register, track their referrals, manage commissions, and visualize their network hierarchy in an interactive dashboard.
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+User Registration & Authentication - Secure login system with role-based access.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dashboard & Hierarchy Visualization - Graphical representation of the MLM network.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Referral & Commission System - Automated referral tracking and commission calculation.
 
-### `npm test`
+Admin Panel - Manage users, track performance, and handle payouts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsive Design - Fully responsive UI built with React.js and Bootstrap.
 
-### `npm run build`
+# Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend: React.js, Redux, Bootstrap, HTML, CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend: Node.js, Express.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Database: MongoDB/MySQL
 
-### `npm run eject`
+Authentication: JWT (JSON Web Token)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Deployment: Firebase/Vercel/Heroku (Optional)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git clone https://github.com/your-username/mlm-react.git
+cd mlm-react
 
-## Learn More
+Install Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the Development Server
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend Setup (if applicable)
 
-### Analyzing the Bundle Size
+Navigate to the backend folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies and run the server
 
-### Making a Progressive Web App
+cd backend
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Usage
 
-### Advanced Configuration
+Users can sign up and log in to their accounts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+The dashboard displays their referrals and commission earnings.
